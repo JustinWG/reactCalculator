@@ -1,9 +1,13 @@
-import { string } from 'prop-types';
+import PropTypes from 'prop-types';
 import React from 'react';
 import { evaluate } from 'mathjs';
 
 class Calculator extends React.Component {
   static expressiveCharacters = ['AC','/','+','-','*','^','7','8','9','6','5','4','1','2','3','.','0','='];
+
+  static propTypes = {
+    updateNotebookList: PropTypes.array,
+  }
 
   state = {
     displayValue: '',

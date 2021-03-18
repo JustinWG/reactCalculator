@@ -1,6 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Notebook extends React.Component {
+
+  static propTypes = {
+    updateNotebookList: PropTypes.array,
+  }
 
   render() {
     return(
