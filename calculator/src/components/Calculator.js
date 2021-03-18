@@ -70,7 +70,7 @@ class Calculator extends React.Component {
 
     // Upgrade: remove the hard-coded in favor of a user-selected value.
     if (!answer || answer=='Infinity' || isNaN(answer)) {
-      answer = 'Expression not valid';
+      answer = 'Invalid';
     } else {
       answer = parseFloat(answer.toPrecision(5));
       let entry = `${this.state.expression} = ${answer}`;
