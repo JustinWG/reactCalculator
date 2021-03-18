@@ -23,7 +23,7 @@ class RoomSelector extends React.Component {
       <React.Fragment>
       <form className='roomSelector' onSubmit={this.goToRoom}>
         <h1 className = 'bannerText'>Math with Friends</h1>
-        <h2>Please Enter a Calculator Name</h2>
+        <h2>Please Enter a Room Name</h2>
         <input
           type='text'
           ref={this.myInput}

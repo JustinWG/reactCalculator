@@ -66,5 +66,6 @@ sketch
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+/settings.json
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,react,firebase,vscode,stylus
