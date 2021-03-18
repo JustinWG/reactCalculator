@@ -10,6 +10,7 @@
     "autoprefixer-stylus": "0.14.0",
     "firebase": "^7.6.0",
     "mathjs": "^9.3.0",
+    "netlify-cli": "^3.13.3",
     "prop-types": "^15.6.0",
     "re-base": "4.0.0",
     "react": "^16.6.3",
